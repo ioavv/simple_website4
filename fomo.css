@@ -1,0 +1,86 @@
+body {
+    background-color: peru;
+    color: black;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+#emo {
+    text-align: center;
+    color: black;
+}
+
+#emo2 {
+    text-align: center;
+}
+.div1 {
+    margin: 100px;
+    width: 310px;
+    height: 130px;
+    background-color: yellowgreen;
+    color: black;
+    border: 2px solid black;
+    transition: width 2s, height 4s, transform 2s;
+}
+
+.div2 {
+    margin: 130px;
+    width: 910px;
+    height: 210px;
+    background-color: yellowgreen;
+    color: black;
+    border: 2px solid black;
+}
+
+
+.div1:hover {
+    width: 300px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+
+.div1#myDiv1 {
+    transform:rotate(15deg);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted black;
+    text-align: center;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 130px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: 60px;
+}
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    text-align: center;
+}
+
+img {
+    padding: 5px;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
