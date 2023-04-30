@@ -6,6 +6,10 @@ body {
 h1 {
     color: black;
     text-align: center;
+    margin: 10px;
+    border: 1px solid limegreen;
+    outline: 4px dashed yellowgreen;
+    outline-offset: 5px;
 }
 
 #emo {
@@ -84,3 +88,86 @@ img {
     object-fit: cover;
 }
 
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 13px 32 px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid yellow;
+}
+
+.button1:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid lime;
+}
+
+.button2:hover {
+    background-color: lime;
+    color: black;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid pink;
+}
+
+.button3:hover {
+    background-color: pink;
+    color: black;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+}
+
+.button4:hover {
+    background-color: blue;
+    color: black;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 0 4px;
+    font-size: 21px;
+}
+
+.pagination a.active {
+    background-color: greenyellow;
+    color: black;
+}
+
+.pagination a:hover:not(.active) {background-color: violet;}
+
+.bb {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: limegreen;
+    
+
+}
