@@ -168,6 +168,17 @@ img {
     column-gap: 40px;
     column-rule-style: solid;
     column-rule-color: limegreen;
-    
+}
 
+:root {
+    --white: #000000;
+    --blue: #1e90ff;
+}
+
+.div3 {
+    background-color: var(--white);
+    color: var(--blue);
+    text-align: center;
+    border: 2px solid white;
+    padding: 20px;
 }
